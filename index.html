@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check Wheather</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wheather-container">
+      <form id="form" action="form.php">
+        <input type="search" id="cityInput" placeholder="Find Wheather" />
+      </form>
+      <div class="loading-container">
+        <div class="wheather-center-content">
+          <h1 id="cityContent"></h1>
+          <h4><span id="Temperature"></span></h4>
+        </div>
+        <div class="bottom-content">
+          <div class="box">
+            <h1 id="humiditytext"></h1>
+            
+            <h2 id="Humidity"></h2>
+          </div>
+          <div class="box">
+            <h1 id="windtext"></h1>
+            <h2 id="wind"></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
