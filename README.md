@@ -37,7 +37,7 @@ The Weather App allows users to check the current weather conditions of any city
 2. **Replace `YOUR_API_KEY` in the JavaScript file with your actual API key.**
 
 ## App Demo
-You can check out the live demo of the app here: [Weather App](https://your-demo-link.com)
+You can check out the live demo of the app here: [Weather App](https://sherazsabir23.github.io/Weather-App/)
 
 ## License
 This project is open-source and available under the **MIT License**.
